@@ -25,10 +25,10 @@ config = "s2t.json"
 pattern = re.compile('.md$|.lua$|.php$|.json$', re.I)
 # Directories where your text you want to translate exist
 dirs = [
-    "C:/blProjects/Github/blog/_data",
-    "C:/blProjects/Github/blog/_includes",
-    "C:/blProjects/Github/blog/_layouts",
-    "C:/blProjects/Github/blog/_posts"
+    "C:/blProjects/Mine/Github/blog/_data",
+    "C:/blProjects/Mine/Github/blog/_includes",
+    "C:/blProjects/Mine/Github/blog/_layouts",
+    "C:/blProjects/Mine/Github/blog/_posts"
     ]
 
 def transFile(fileName, config):
